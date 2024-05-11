@@ -1,0 +1,5 @@
+Python is a object oriented programming language.
+
+-----Python Variables-----
+1.In Python variable is a named location used to store data in the memory. Each variable must have a unique name called identifier.
+2.In Python, variables do not need declaration to r  
