@@ -151,17 +151,17 @@ def back():
 
 attemps = 0
 
-while attemps < 12345677901:
-   username = input(' \033[0;92mEnter Username: ')
-   password = input(' \033[0;93mEnter Password: ')
+# while attemps < 12345677901:
+#    username = input(' \033[0;92mEnter Username: ')
+#    password = input(' \033[0;93mEnter Password: ')
 
-   if username == 'RABBI' and password == 'Love':
-       print(' \033[0;92mYou Have Successfully Logged in.')
-       break
-   else:
-       print(' Incorrect Pass Please Trying ')
-       attemps += 1
-       continue
+#    if username == 'RABBI' and password == 'Love':
+#        print(' \033[0;92mYou Have Successfully Logged in.')
+#        break
+#    else:
+#        print(' Incorrect Pass Please Trying ')
+#        attemps += 1
+#        continue
 os.system('clear')
 #------------------[ MAIN ]-----------------#
 
@@ -520,25 +520,25 @@ if __name__=='__main__':
 	try:os.system('touch prox.txt')
 	except:pass
 
-def Subscraption():
-	key1=open('/storage/emulated/0/android8.txt', 'r').read()
-	r1=requests.get("https://github.com/itrabbi/testingperpose/blob/main/Approval.txt").text
-	if key1 in r1:
-		os.system('clear')
-		login()
-	else:
-		os.system("clear")
-		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m FREE USER NOT COME INBOX")
-		time.sleep(0.0010)
-		print("\033[97;1m[\033[92;1m•\033[97;1m]\x1b[38;5;208m Tutul King, ToOLs Daily Update")
-		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m 7 DAYS 300 Tk")
-		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m 15 DAYS 500 Tk")
-		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m Your Key  :\033[0;93m "+ak+Tutul+key1)
-		name = input("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m Your Name : ")
-		input("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m Press Enter To Send Key")
-		time.sleep(3.5)
-		tks = 'Assalamu%20Alaikum-!💚,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+Tutul+''+key1
-		os.system('am start https://wa.me/+8801608843956?text=' + tks)
-		Subscraption() 
-Subscraption() 
+# def Subscraption():
+# 	# key1=open('/storage/emulated/0/android8.txt', 'r').read()
+# 	# r1=requests.get("https://github.com/itrabbi/testingperpose/blob/main/Approval.txt").text
+# 	# if key1 in r1:
+# 	# 	os.system('clear')
+# 	# 	login()
+# 	# else:
+# 		os.system("clear")
+# 		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m FREE USER NOT COME INBOX")
+# 		time.sleep(0.0010)
+# 		print("\033[97;1m[\033[92;1m•\033[97;1m]\x1b[38;5;208m Tutul King, ToOLs Daily Update")
+# 		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m 7 DAYS 300 Tk")
+# 		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m 15 DAYS 500 Tk")
+# 		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m Your Key  :\033[0;93m "+ak+Tutul+key1)
+# 		name = input("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m Your Name : ")
+# 		input("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m Press Enter To Send Key")
+# 		time.sleep(3.5)
+# 		tks = 'Assalamu%20Alaikum-!💚,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+Tutul+''+key1
+# 		os.system('am start https://wa.me/+8801608843956?text=' + tks)
+# 		Subscraption() 
+# Subscraption() 
 login()

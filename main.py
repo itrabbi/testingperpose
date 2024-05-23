@@ -1,7 +1,5 @@
 print("Hello world!")
 print("Welcome to the programming world...")
-a = "Rabbi"
-b = "Sudo"
-print(a + " " + b)
+print("Make it work, make it right, make it fast.")
 firstName, lastName = "Rabbi", "Hassan"
 print(firstName + " " + lastName)
